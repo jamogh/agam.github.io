@@ -1,6 +1,6 @@
 const books = [
   {
-    title: { en: "The Great Gatsby", hi: "द ग्रेट गैट्सबी" },
+    title: { en: "SAMYOPDESH PART 1", hi: "साम्योपदेश भाग १" },
     summary: {
       en: "A novel about the American dream.",
       hi: "अमेरिकन ड्रीम के बारे में एक उपन्यास।"
@@ -8,7 +8,7 @@ const books = [
     image: "images/book1.jpg"
   },
   {
-    title: { en: "1984", hi: "1984" },
+    title: { en: "SAMYOPDESH PART 2", hi: "साम्योपदेश भाग २" },
     summary: {
       en: "A dystopian novel by George Orwell.",
       hi: "जॉर्ज ऑरवेल द्वारा एक डिस्टोपियन उपन्यास।"
@@ -16,25 +16,57 @@ const books = [
     image: "images/book2.jpg"
   },
   {
-    title: { en: "To Kill a Mockingbird", hi: "टू किल अ मॉकिंगबर्ड" },
+    title: { en: "SAMYOPDESH PART 3", hi: "साम्योपदेश भाग ३" },
     summary: {
       en: "A novel about racial injustice.",
       hi: "नस्लीय अन्याय के बारे में एक उपन्यास।"
     },
     image: "images/book3.jpg"
+  },
+  {
+    title: { en: "SAMYOPDESH PART 4", hi: "साम्योपदेश भाग ४" },
+    summary: {
+      en: "A dystopian novel by George Orwell.",
+      hi: "जॉर्ज ऑरवेल द्वारा एक डिस्टोपियन उपन्यास।"
+    },
+    image: "images/book2.jpg"
+  },
+  {
+    title: { en: "SAMYOPDESH PART 5", hi: "साम्योपदेश भाग ५" },
+    summary: {
+      en: "A dystopian novel by George Orwell.",
+      hi: "जॉर्ज ऑरवेल द्वारा एक डिस्टोपियन उपन्यास।"
+    },
+    image: "images/book2.jpg"
+  },
+  {
+    title: { en: "SAMYOPDESH PART 6", hi: "साम्योपदेश भाग ६" },
+    summary: {
+      en: "A dystopian novel by George Orwell.",
+      hi: "जॉर्ज ऑरवेल द्वारा एक डिस्टोपियन उपन्यास।"
+    },
+    image: "images/book2.jpg"
+  },
+  {
+    title: { en: "SAMYOPDESH PART 7", hi: "साम्योपदेश भाग ७" },
+    summary: {
+      en: "A dystopian novel by George Orwell.",
+      hi: "जॉर्ज ऑरवेल द्वारा एक डिस्टोपियन उपन्यास।"
+    },
+    image: "images/book2.jpg"
   }
 ];
 
 const translations = {
   en: {
-    appTitle: "Books Manager",
-    bookListTitle: "List of Books",
+    appTitle: "AAGAM PRAKASHAN",
+    bookListTitle: "COLLECTION",
     contactTitle: "Contact Details",
     contactInfo: "For inquiries, contact us at: <a href='mailto:info@bookmanager.com'>info@bookmanager.com</a>"
   },
   hi: {
-    appTitle: "पुस्तक प्रबंधन",
-    bookListTitle: "पुस्तकों की सूची",
+    appTitle: "आगम प्रकाशन",
+    bookListTitle: "ग्रंथालय",
     contactTitle: "संपर्क विवरण",
     contactInfo: "जांच के लिए, हमसे संपर्क करें: <a href='mailto:info@bookmanager.com'>info@bookmanager.com</a>"
   }
