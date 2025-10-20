@@ -14,7 +14,7 @@
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  animation: rotateCube 5s infinite linear;
+  animation: rotateCube 12s infinite ease-in-out; /* Slow down the animation */
 }
 
 .face {
@@ -57,9 +57,25 @@
 /* Keyframe animation for rotating the cube */
 @keyframes rotateCube {
   0% {
-    transform: rotateX(0deg) rotateY(0deg);
+    transform: rotateX(0deg) rotateY(0deg); /* Front face */
+  }
+  16% {
+    transform: rotateX(0deg) rotateY(90deg); /* Right face */
+  }
+  33% {
+    transform: rotateX(0deg) rotateY(180deg); /* Back face */
+  }
+  50% {
+    transform: rotateX(0deg) rotateY(270deg); /* Left face */
+  }
+  66% {
+    transform: rotateX(90deg) rotateY(270deg); /* Top face */
+  }
+  83% {
+    transform: rotateX(-90deg) rotateY(270deg); /* Bottom face */
   }
   100% {
-    transform: rotateX(360deg) rotateY(360deg);
+    transform: rotateX(0deg) rotateY(360deg); /* Reset to Front face */
   }
 }
+
